@@ -21,8 +21,9 @@ class Game() {
   def sinkChecker(column: Int, player: Player): Unit ={
     // TODO: Check if it is indeed this player's turn, otherwise throw IllegalArgumentException
     // TODO: tell the board to sink the checker
+    board.sinkChecker(column, player)
     // TODO: Change the game state to the appropriate GameState.
-
+    //gameState = GameState.Player2Turn
   }
 
   def isGameOver(): Boolean ={

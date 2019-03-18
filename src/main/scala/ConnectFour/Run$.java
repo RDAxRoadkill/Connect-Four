@@ -1,5 +1,3 @@
-import Player.Player
-
 object Run {
 
   def main(args: Array[String]) {
